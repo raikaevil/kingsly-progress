@@ -1,0 +1,99 @@
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.h1{
+    display: flex;
+    flex: 1;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+
+.flex-container > div {
+
+
+}
+.grid .profile-image{
+    flex : 2;
+    order : 1;
+    text-align: center;
+    line-height: 15px;
+    font-size: 25px;
+}
+.table .profile-image{
+    flex : 2;
+    order : 1;
+    text-align: center;
+    line-height: 15px;
+    font-size: 25px;
+}
+.grid .name{
+    flex : 3;
+    order : 2;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.content{
+    flex : 5;
+    order : 3;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.view-more-wrapper{
+    flex : 1;
+    order : 4;
+    margin-top: 10px;
+}
+
+
+
+/*this is for toggle*/
+.onoffswitch {
+    position: relative; width: 60px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    margin-left: 80%;
+
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 36px; padding: 0; line-height: 36px;
+    border: 2px solid #E3E3E3; border-radius: 36px;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block; width: 36px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 22px;
+    border: 2px solid #E3E3E3; border-radius: 36px;
+    transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #46E3EB;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    border-color: #46E3EB;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px;
+}
+/*function myFunction() {*/
+    /*document.getElementByClass().innerHTML = "Hello JavaScript!";*/
+/*}*/
+
+/*whenever u wanna change to a card vie w to row view just apply class*/

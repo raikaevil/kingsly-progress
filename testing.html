@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+
+    <link rel="stylesheet" href="testing.css">
+
+</head>
+<body>
+
+<p>List View</p>
+
+
+<div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" clicked>
+    <label class="onoffswitch-label" for="myonoffswitch"></label>
+</div>
+
+<h1>Profile</h1>
+
+
+
+<hr/>
+
+<div class="flex-container grid">
+    <div class="profile-image" ><img src="profile.svg" alt="profile" style="width:50px;height:60px;"></div>
+
+    <div class= "name">John <b>Lee</b></div>
+
+    <div class= "content">Male, 29</div>
+
+    <div class= "view-more-wrapper"><input
+            type="image" onclick="myFunction()" src="view-more.svg" class="viewmore1" id="view1" alt="view-more"  style="width:30px;height:40px;"></div>
+</div>
+
+<hr />
+
+
+<script>
+    document.getElementById('myonoffswitch').addEventListener("click", function () {
+        // if (this.click) window.location.href = 'testing.html';
+    });
+
+</script>
+</body>
+
+</html>
